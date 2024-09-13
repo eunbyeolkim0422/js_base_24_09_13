@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // *입력한 값이 짝수인지 홀수인지 브라우저에 출력하기
+
+        // const num = Number(prompt("숫자를 입력하시오"));
+    
+        // if(num % 2 === 0){
+        //     document.write("입력한 값은 짝수 입니다");
+        // }else if(num % 2 ===1){
+        //     document.write("입력한 값은 홀수 입니다");
+        // }else{
+        //     document.write("숫자를 입력하세요");
+        // }
+
+        const num = Number(prompt("숫자를 입력하시오"));
+        const result = num % 2;
+
+        // if(result === 0){
+        //     document.write("입력한 값은 짝수 입니다");
+        // }else if(result === 1){
+        //     document.write("입력한 값은 홀수 입니다");
+        // }else{
+        //     document.write("숫자를 입력하세요");
+        // }
+
+        if(result === 0){
+            document.write("입력한 값은 짝수입니다.");
+        }else if(result !== 0){
+            document.write("입력한 값은 홀수입니다.");
+        }else if(result === 1){
+            document.write("입력한 값은 홀수입니다");
+        }else{
+            document.write("숫자를 입력하라니까");
+        }
+        // => else if 문에 나머지값이 0이 아닐 때 홀수로 떠라= 문자를 써도 홀수값입니다 라고 나옴
+        // 정확한 결과값을 서술할 것 ex) 나머지가 1이면 무조건 짝수니까 result === 1 
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
